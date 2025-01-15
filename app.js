@@ -39,7 +39,7 @@ app.get("/listings", wrapAsync(async (req, res) => {
     res.render("listings/index.ejs", { alllistings });
 }));
 
-// new route 
+// new route  
 app.get("/listings/new", (req, res) => {
     res.render("listings/new.ejs");
 });
